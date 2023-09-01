@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
     styleUrls: ['./button.component.css']
 })
 
-export class Button {}
+export class Button {
+    buttonText:string = 'Evan';
+    buttonTexts:string[] = ['VENDER', 'COMPRAR']
+    buttonNumber:number = 7;
+    buttonObject = {
+        label: 'adcionar ao carrinho',
+    }
+}
