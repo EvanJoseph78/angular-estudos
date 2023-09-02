@@ -1,2 +1,7 @@
-<input type="text" [value]="placeholder" (input)="placeholder = $any($event.target).value"/>
+<input
+  type="text"
+  [value]="placeholder"
+  (input)="placeholder = $any($event.target).value"
+/>
 <p>O texto vai ser colocado dinamicamente aqui: {{ placeholder }}</p>
+
