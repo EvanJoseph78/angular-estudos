@@ -12,5 +12,6 @@ export class Button {
     buttonNumber:number = 7;
     buttonObject = {
         label: 'adcionar ao carrinho',
+        cancel: 'cancelar compra',
     }
 }
