@@ -6,4 +6,8 @@ const newLocal = 'card';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css'],
 })
-export class Card {}
+export class Card {
+  getAlert() {
+    alert('Evandro');
+  }
+}

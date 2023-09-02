@@ -7,11 +7,23 @@ import { Component } from '@angular/core';
 })
 
 export class Button {
+    label: string = "Etiqueta"
     buttonText:string = 'Evan';
     buttonTexts:string[] = ['VENDER', 'COMPRAR']
     buttonNumber:number = 7;
     buttonObject = {
         label: 'adcionar ao carrinho',
         cancel: 'cancelar compra',
+    }
+
+    getAlert() {
+        alert("Evandro");
+        console.log("Evan Joseph");
+        
+    }
+
+    mousePassandoPorCima(){
+        console.log(this.label);
+        
     }
 }
